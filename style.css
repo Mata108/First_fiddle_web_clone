@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2{
+    font-size: 2rem;
+    font-family: 'Bodoni Moda', serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* Navbar start*/
+.weblogo1 {
+    width: 65px;
+}
+
+.weblogo2 {
+    display:none;
+}
+
+navbar nav li{
+    padding: 0 10px;
+}
+
+.a{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.navbar{
+    background-color: #00000073;
+}
+
+.side-padding {
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+
+@media (max-width: 724px) {
+    .weblogo1 {
+        display:none;
+    }
+
+    .weblogo2 {
+        display:block;
+    }
+    .navbar{
+        background-color: #ffca45;
+    }
+}
+
+
+/* Navbar End*/
+
+
+.mt-20 {
+    margin-top: 102px;
+}
+
+.container-margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.wcolor {
+    color: #fff;
+}
+
+.y {
+    color: #fbaa1a;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bolder;
+}
+
+.ml-1 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 3px;
+}
+
+.intro-content {
+    text-align: justify;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.img-size {
+    width: 80%;
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.button {
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.wbtn {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fbac29;
+    margin-top: 100px;
+}
+
+.mediamention {
+    background-image: url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+.aboutmedia {
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+.slide-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mbtn {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fbac29;
+}
+
+.aboutExperience {
+    background-image: url(https://www.firstfiddle.in/assets/images/outletbanner.png);
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px !important;
+    background-size: cover;
+}
+
+.mainfooter {
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+
+/* Injected */
+
+.mainfooter p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.foot {
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foot-add {
+    padding: 15px;
+}
+
+.icon {
+    font-family: "Font Awesome 5 Brands";
+    color: #ffae00;
+}
+
+.foot-end {
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .intro-content {
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: 30px;
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .wbtn {
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+
+    }
+}
+
+@media (max-width: 812px) {
+    .wbtn {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 724px) {
+    .img-size {
+        width: 100%;
+    }
+}
+
+@media (max-width: 712px) {
+    .xhidden {
+        display: none;
+    }
+}
